@@ -1,0 +1,61 @@
+body {
+    background-image: url('tambobg.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: "emilys candy";
+}
+header img {
+    top: 10px;
+    left: 20px;
+    width: 90px;  /* Adjust the size */
+    height: auto;
+}
+nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background: #fff;
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;   
+    background: #f4f4f4;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #0056b3;
+}
